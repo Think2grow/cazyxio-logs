@@ -62,7 +62,8 @@ def get_version(date: str) -> str:
     if d <= 20260312: return "v4.2"
     if d <= 20260320: return "v4.3"
     if d <= 20260324: return "v4.4"
-    return "v4.5"
+    if d <= 20260331: return "v4.5"
+    return "v4.6"
 
 
 # ─── File loading ─────────────────────────────────────────────────────────────
